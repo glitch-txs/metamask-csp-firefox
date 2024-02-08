@@ -11,13 +11,14 @@
   "devDependencies": {
     "@types/post-message-stream": "^3.0.4",
     "typescript": "^5.2.2",
-    "vite": "^5.1.0"
+    "vite": "^5.1.0",
+    "vite-plugin-node-polyfills": "^0.19.0"
   },
   "dependencies": {
     "@wagmi/connectors": "^4.1.13",
     "@wagmi/core": "^2.6.4",
-    "metamask-inpage-provider": "^5.0.0",
-    "post-message-stream": "^3.0.0",
+    "metamask-inpage-provider": "4.1.2",
+    "post-message-stream": "3.0.0",
     "viem": "^2.7.6"
   }
 }
