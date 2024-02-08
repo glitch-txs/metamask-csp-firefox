@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/post-message-stream": "^3.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   },

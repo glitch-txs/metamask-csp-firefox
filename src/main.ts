@@ -1,5 +1,9 @@
 console.log("hello", window.ethereum)
 
+import { ethereum } from './metamaskInPage'
+
+console.log("in page: ", ethereum)
+
 export { }
 
 declare global {
