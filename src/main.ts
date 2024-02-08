@@ -1,3 +1,5 @@
+window.process = window.process ?? {env: {}}
+
 console.log("hello", window.ethereum)
 
 import { ethereum } from './metamaskInPage'
