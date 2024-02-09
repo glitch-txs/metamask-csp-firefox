@@ -1,0 +1,1 @@
+import 'metamask-csp-firefox'
