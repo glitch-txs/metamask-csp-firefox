@@ -1,6 +1,6 @@
 {
   "name": "metamask-csp-firefox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Fix the content security policy issue with MetaMask extension in Firefox.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
