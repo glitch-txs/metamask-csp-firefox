@@ -1,0 +1,39 @@
+{
+  "name": "metamask-csp-firefox",
+  "version": "0.0.0",
+  "description": "Fix the content security policy issue with MetaMask extension in Firefox.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "upload": "npm run build && npm publish --public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitch-txs/metamask-csp-firefox.git"
+  },
+  "keywords": [
+    "metamask",
+    "csp",
+    "firefox",
+    "provider"
+  ],
+  "author": "glitch-txs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glitch-txs/metamask-csp-firefox/issues"
+  },
+  "dependencies": {
+    "@metamask/post-message-stream": "4.0.0",
+    "@metamask/providers": "14.0.2"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "homepage": "https://github.com/glitch-txs/metamask-csp-firefox#readme"
+}
